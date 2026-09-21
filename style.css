@@ -26,11 +26,13 @@ h3{font-size:1.35rem;margin-bottom:.7rem}
 .hero{position:relative;display:block;overflow:hidden;background:#05080c}
 .hero-image{position:relative;width:100%;height:auto;aspect-ratio:1536/630;object-fit:cover;object-position:center}
 .hero-shade{display:none}
-.hero-content{position:relative;padding-top:58px;padding-bottom:72px;max-width:var(--max);width:min(calc(100% - 40px),var(--max))}
+.hero-content{position:relative;padding-top:46px;padding-bottom:56px;max-width:var(--max);width:min(calc(100% - 40px),var(--max));text-align:center}
 .eyebrow{display:flex;align-items:center;gap:10px;color:var(--yellow);font-weight:800;font-size:.84rem;letter-spacing:.15em;margin-bottom:12px}
 .eyebrow::before{content:"";width:32px;height:3px;background:var(--yellow)}
-.hero h1{font-size:clamp(2.5rem,5.2vw,4.6rem);margin:0 0 18px;max-width:610px}
-.hero-content>p:not(.eyebrow){font-size:1.1rem;color:#d9dee5;max-width:600px}
+.hero .eyebrow{justify-content:center}
+.hero h1{font-size:clamp(2.35rem,4vw,3.8rem);margin:0 auto 18px;max-width:920px}
+.hero-content>p:not(.eyebrow){font-size:1.1rem;color:#d9dee5;max-width:760px;margin-left:auto;margin-right:auto}
+.hero .button-row{justify-content:center}
 .button-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
 .button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 22px;border-radius:5px;text-decoration:none;font-weight:800;transition:.2s transform,.2s filter}
 .button:hover{transform:translateY(-2px);filter:brightness(1.06)}
@@ -104,8 +106,8 @@ h3{font-size:1.35rem;margin-bottom:.7rem}
 .hero{min-height:0}
 .hero-image{width:100%;height:auto;aspect-ratio:1536/630;object-position:center;opacity:1;-webkit-mask-image:none;mask-image:none}
 .hero-shade{display:none}
-.hero-content{padding-top:38px;padding-bottom:48px;width:min(calc(100% - 28px),var(--max))}
-.hero h1{font-size:clamp(2.35rem,11vw,4.3rem)}
+.hero-content{padding-top:32px;padding-bottom:42px;width:min(calc(100% - 28px),var(--max))}
+.hero h1{font-size:clamp(2.15rem,9vw,3.2rem)}
 .section{padding:76px 0}
 .service-grid,.about-grid,.contact-inner{grid-template-columns:1fr}
 .service-card-wide{grid-column:auto;display:block}
