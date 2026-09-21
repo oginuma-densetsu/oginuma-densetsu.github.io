@@ -1,0 +1,12 @@
+SEO対応版です。
+
+GitHubのリポジトリ直下へ、以下をアップロードして既存ファイルを上書きしてください。
+- index.html
+- works.html
+- style.css
+- script.js
+- sitemap.xml
+- robots.txt（新規）
+
+重要：既存の images フォルダは削除しないでください。
+アップロード後、Commit changes を押してください。
